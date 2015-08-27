@@ -16,6 +16,5 @@ Gem::Specification.new do |s|
   s.date          = "2015-08-14"
 
   s.add_dependency "kaminari",     ["~> 0.16"]
-  s.add_dependency "coffee-rails", ["~> 4.0"]
 
 end
