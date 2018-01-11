@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name          = "wice_grid"
+  s.name          = "airbo_wice_grid"
   s.version       = "4.2.10"
   s.authors       = ["Yuri Leikind", "Airbo"]
   s.homepage      = "https://github.com/theairbo/wice_grid"
