@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.date          = "2018-01-11"
 
-  s.add_dependency "kaminari",     ["~> 0.17"]
+  s.add_dependency "kaminari",     ["~> 1.1.1"]
 
 end
