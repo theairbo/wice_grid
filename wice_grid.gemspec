@@ -1,9 +1,8 @@
 Gem::Specification.new do |s|
   s.name          = "wice_grid"
-  s.version       = "3.5.0"
-  s.authors       = ["Yuri Leikind"]
-  s.email         = ["yuri.leikind@gmail.com"]
-  s.homepage      = "https://github.com/leikind/wice_grid"
+  s.version       = "rails_4_2_10"
+  s.authors       = ["Yuri Leikind", "Airbo"]
+  s.homepage      = "https://github.com/theairbo/wice_grid"
   s.summary       = "A Rails grid plugin to quickly create grids with sorting, pagination, and filters."
   s.description   = "A Rails grid plugin to create grids with sorting, pagination, and filters generated automatically based on column types. " +
                     "The contents of the cell are up for the developer, just like one does when rendering a collection via a simple table. "    +
@@ -13,8 +12,8 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files`.split($/)
   s.license       = "MIT"
   s.require_paths = ["lib"]
-  s.date          = "2015-08-14"
+  s.date          = "2018-01-11"
 
-  s.add_dependency "kaminari",     ["~> 0.16"]
+  s.add_dependency "kaminari",     ["~> 0.17"]
 
 end
