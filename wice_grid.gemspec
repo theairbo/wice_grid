@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = "wice_grid"
-  s.version       = "rails_4_2_10"
+  s.version       = "4.2.10"
   s.authors       = ["Yuri Leikind", "Airbo"]
   s.homepage      = "https://github.com/theairbo/wice_grid"
   s.summary       = "A Rails grid plugin to quickly create grids with sorting, pagination, and filters."
