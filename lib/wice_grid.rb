@@ -85,7 +85,7 @@ module Wice
         end
       end
 
-      opts[:order_direction].downcase! if opts[:order_direction].kind_of?(String)
+      opts[:order_direction] = opts[:order_direction].downcase if opts[:order_direction].kind_of?(String)
 
       # validate :order_direction
       if opts[:order_direction] && ! (opts[:order_direction] == 'asc'  ||
